@@ -22,9 +22,9 @@ def avav(data):
     for i in range(1,99):
         for k in range(1,99):
             av = np.mean(a[i-1:i+2,k-1:k+2])
-            if av > 125:
+            if av > 127.5:
                 b[i,k] = a[i,k] + up
-            if av <= 125:
+            if av <= 127.5:
                 b[i,k] = a[i,k] + down
 
     b[b > 255] = 255
