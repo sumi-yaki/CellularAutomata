@@ -7,4 +7,4 @@ DbFPは胎児の時にも網膜に近いところで光が無くてもパター�
 
 まず、最初のコードはランダムに0-255までの値の二次元画像を作成し、ひとつのピクセルを中心とした9つのピクセルの値を平均したものが、127.5以上ならば、中心のピクセルにupの値を加算し、逆ならば down(マイナス)の値を足すことで、値を減らす、ということを繰り返す、cellular automataになっている。
 
-<img src="https://github/sumi-yaki/CellularAutomata/blob/master/anime.gif">
+![result]<img src="https://github/sumi-yaki/CellularAutomata/blob/master/anime.gif">)
